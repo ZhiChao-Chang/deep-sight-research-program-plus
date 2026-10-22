@@ -8,8 +8,8 @@ This is a review preview, not an official admissions announcement. Final program
 
 GitHub Pages publishes `index.html` at the root of the `main` branch. CSS, JavaScript and images are embedded in that one HTML file. No OpenAI login, external runtime, stylesheet, font or image service is required.
 
-The page uses scoped `slai-dsr-` classes and IDs, a right-side floating section menu on desktop, and a single-column layout with no floating menu on phones. The hero cycles through five supplied SLAI photos every five seconds, with manual controls, pause/play, keyboard and touch support. Photos are displayed without cropping and remain embedded in the HTML.
+The page uses scoped `slai-dsr-` classes and IDs, a right-side floating section menu on desktop, and a single-column layout with no floating menu on phones. The hero cycles through five supplied SLAI photos every five seconds, with only small dots inside the photo for manual selection; no arrows, captions, counters or playback buttons. Keyboard and touch support remain available. Photos are displayed without cropping and remain embedded in the HTML.
 
 To update this mirror, replace `index.html` with the current generated standalone page and push to `main`.
 
-Synced from Sites source commit: `6ddf5dc9a470dbd18181230155183b73632591e5`.
+Synced from Sites source commit: `d62d3eabffd6edb7a8fc655c1e955b3d22ef8d1c`.
