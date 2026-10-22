@@ -6,6 +6,10 @@ This is a review preview, not an official admissions announcement. Final program
 
 ## Hosting
 
-GitHub Pages publishes the files at the root of the `main` branch. All CSS, JavaScript and images are included locally. No OpenAI login or runtime is required.
+GitHub Pages publishes `index.html` at the root of the `main` branch. CSS, JavaScript and images are embedded in that one HTML file. No OpenAI login, external runtime, stylesheet, font or image service is required.
 
-To update this mirror, replace the static website files and push to `main`.
+The page uses scoped `slai-dsr-` classes and IDs, a right-side floating section menu on desktop, and a single-column layout with no floating menu on phones.
+
+To update this mirror, replace `index.html` with the current generated standalone page and push to `main`.
+
+Synced from Sites source commit: `15057ccf0f639aa59ecca2f1080b37acbe71c3c3`.
