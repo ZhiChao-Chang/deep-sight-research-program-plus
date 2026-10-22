@@ -55,7 +55,7 @@
 #slai-dsr-root .slai-dsr-site-header {display:flex;justify-content:space-between;align-items:center;gap:24px;min-height:90px;padding:18px max(36px,calc((100% - 1200px)/2));position:relative;z-index:1;background:rgba(255,255,255,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--slai-dsr-line)}
 #slai-dsr-root .slai-dsr-brand {display:block;width:240px;height:46px;overflow:hidden;position:relative;flex-shrink:0}
 #slai-dsr-root .slai-dsr-brand img {position:absolute;width:282px;max-width:none;height:auto;left:-21px;top:50%;transform:translateY(-50%)}
-#slai-dsr-root .slai-dsr-hero {display:grid;grid-template-columns:1fr 1fr;align-items:stretch;gap:44px;padding:64px max(60px,calc((100% - 1200px)/2));background:var(--slai-dsr-gradient);color:#fff;position:relative}
+#slai-dsr-root .slai-dsr-hero {display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.16fr);align-items:stretch;gap:32px;padding:64px max(60px,calc((100% - 1200px)/2));background:var(--slai-dsr-gradient);color:#fff;position:relative}
 #slai-dsr-root .slai-dsr-hero-copy {min-width:0;padding:12px 0;display:flex;flex-direction:column;align-items:flex-start}
 #slai-dsr-root .slai-dsr-hero-eyebrow {width:100%;gap:10px;color:#fff;font-size:12px;letter-spacing:.08em;margin-bottom:28px}
 #slai-dsr-root .slai-dsr-small-orbit {width:10px;height:10px;border-radius:50%;background:#fff;flex-shrink:0}
@@ -66,8 +66,9 @@
 #slai-dsr-root .slai-dsr-program-name {display:block;font-size:clamp(24px,2.25vw,30px);font-weight:600;line-height:1.3;letter-spacing:-.025em;margin-top:12px}
 #slai-dsr-root .slai-dsr-hero-deck {font:italic 700 25px/1.45 var(--slai-dsr-font);letter-spacing:-.025em;margin-bottom:22px}
 #slai-dsr-root .slai-dsr-hero-intro {max-width:540px;color:#fff;font-size:18px;line-height:1.75;margin-bottom:24px}
-#slai-dsr-root .slai-dsr-hero-actions {display:flex;gap:22px;align-items:center;flex-wrap:wrap;margin:0 0 24px}
+#slai-dsr-root .slai-dsr-hero-actions {display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:0 0 24px}
 #slai-dsr-root .slai-dsr-button {display:inline-flex;justify-content:space-between;align-items:center;gap:20px;padding:14px 22px;border-radius:999px;font-size:16px;font-weight:700;line-height:1.5;background:linear-gradient(135deg,#2C43FF,#582AD4);color:#fff;border:0;transition:transform .3s,box-shadow .3s,filter .3s}
+#slai-dsr-root .slai-dsr-hero-actions .slai-dsr-button {gap:10px;padding-inline:18px}
 #slai-dsr-root .slai-dsr-button.slai-dsr-ivory {background:var(--slai-dsr-magenta);color:#fff;font-size:20px;box-shadow:0 8px 22px rgba(26,26,46,.16)}
 #slai-dsr-root .slai-dsr-button span {font-size:21px;line-height:1}
 #slai-dsr-root .slai-dsr-text-link {display:inline-flex;gap:12px;align-items:center;border-bottom:1px solid rgba(44,67,255,.35);padding-bottom:4px;color:var(--slai-dsr-blue);font-size:15px;font-weight:700;line-height:1.5;transition:color .3s}

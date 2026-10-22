@@ -12,4 +12,4 @@ The page uses scoped `slai-dsr-` classes and IDs, a right-side floating section 
 
 To update this mirror, replace `index.html` with the current generated standalone page and push to `main`.
 
-Synced from Sites source commit: `d62d3eabffd6edb7a8fc655c1e955b3d22ef8d1c`.
+Synced from Sites source commit: `82bfe85b8537586ce9073a5bf6a6412565d89c1e`.
