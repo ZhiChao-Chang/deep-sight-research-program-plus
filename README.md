@@ -1,6 +1,6 @@
-# Deep Sight Research Program Plus · SLAI Preview
+# Global Deep Sight Research Program · SLAI Preview
 
-Static review website for the Deep Sight Research Program Plus introduction.
+Static review website for the Global Deep Sight Research Program introduction.
 
 This is a review preview, not an official admissions announcement. Final program information is subject to the institute’s official announcement.
 
@@ -12,4 +12,4 @@ The page uses scoped `slai-dsr-` classes and IDs, a right-side floating section 
 
 To update this mirror, replace `index.html` with the current generated standalone page and push to `main`.
 
-Synced from Sites source commit: `82bfe85b8537586ce9073a5bf6a6412565d89c1e`.
+Synced from Sites source commit: `054fe5ea62c4bc75356b8a8129c0dccbe826434c`.
